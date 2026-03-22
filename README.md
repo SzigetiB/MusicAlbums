@@ -3,7 +3,7 @@
 
 ## Csapattagok
 - Balázs Szigeti
-- [Másik tag neve]
+- Varg Márk
 
 ## Választott téma
 Zenei albumok gyűjteménye
