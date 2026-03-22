@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Music Album Catalog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>🎵 Music Album Catalog</h1>
+        <p>Kedvenc zenei album gyűjtemény</p>
+    </header>
+    <nav>
+        <a href="index.html">Főoldal</a>
+        <a href="items.html">Albumok</a>
+        <a href="favorites.html">Kedvencek</a>
+    </nav>
+    <main>
+        <section class="statistics">
+            <h2>Statisztikák</h2>
+            <div class="stats-container">
+                <div class="stat-box">
+                    <h3>{{ALBUM_COUNT}}</h3>
+                    <p>Album</p>
+                </div>
+                <div class="stat-box">
+                    <h3>{{GENRE_COUNT}}</h3>
+                    <p>Műfaj</p>
+                </div>
+                <div class="stat-box">
+                    <h3>{{FAVORITE_COUNT}}</h3>
+                    <p>Kedvenc</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Kiemelt albumok</h2>
+            <div class="album-grid">
+                {{FEATURED}}
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Music Album Catalog Project</p>
+    </footer>
+</body>
+
+</html>
