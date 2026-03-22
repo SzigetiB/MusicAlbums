@@ -1,6 +1,200 @@
-1;Hybrid Theory;Linkin Park;Rock;First LP album;2000;5;True
-2;Thriller;Michael Jackson;Pop;Best selling album;1982;5;True
+1;Hybrid Theory;Linkin Park;Rock;First LP album;2000;5;False
+2;Thriller;Michael Jackson;Pop;Best selling album;1982;5;False
 3;Back in Black;ACDC;Rock;Famous rock album;1980;4;False
 4;1989;Taylor Swift;Pop;Pop album;2014;4;False
-5;Random Access Memories;Daft Punk;Electronic;Electronic album;2013;5;True
-6;Music;Playboi Carti;Rap;Rap album;2025;5;True
+5;Random Access Memories;Daft Punk;Electronic;Electronic album;2013;5;False
+6;Music;Playboi Carti;Rap;Rap album;2025;5;False
+7;Nevermind;Nirvana;Grunge;Grunge classic;1991;5;True
+8;The Dark Side of the Moon;Pink Floyd;Progressive Rock;Iconic album;1973;5;True
+9;Abbey Road;The Beatles;Rock;Classic Beatles album;1969;5;True
+10;Back to Black;Amy Winehouse;Soul;Soulful masterpiece;2006;5;False
+11;Hybrid Theory;Linkin Park;Rock;First LP album;2000;5;False
+12;Thriller;Michael Jackson;Pop;Best selling album;1982;5;False
+13;Back in Black;ACDC;Rock;Famous rock album;1980;4;False
+14;1989;Taylor Swift;Pop;Pop album;2014;4;False
+15;Random Access Memories;Daft Punk;Electronic;Electronic album;2013;5;False
+16;Music;Playboi Carti;Rap;Rap album;2025;5;False
+17;Nevermind;Nirvana;Grunge;Grunge classic;1991;5;False
+18;The Dark Side of the Moon;Pink Floyd;Progressive Rock;Iconic album;1973;5;False
+19;Abbey Road;The Beatles;Rock;Classic Beatles album;1969;5;False
+20;Back to Black;Amy Winehouse;Soul;Soulful masterpiece;2006;5;False
+21;Hybrid Theory;Linkin Park;Rock;First LP album;2000;5;False
+22;Thriller;Michael Jackson;Pop;Best selling album;1982;5;False
+23;Back in Black;ACDC;Rock;Famous rock album;1980;4;True
+24;1989;Taylor Swift;Pop;Pop album;2014;4;True
+25;Random Access Memories;Daft Punk;Electronic;Electronic album;2013;5;False
+26;Music;Playboi Carti;Rap;Rap album;2025;5;False
+27;Nevermind;Nirvana;Grunge;Grunge classic;1991;5;True
+28;The Dark Side of the Moon;Pink Floyd;Progressive Rock;Iconic album;1973;5;False
+29;Abbey Road;The Beatles;Rock;Classic Beatles album;1969;5;True
+30;Back to Black;Amy Winehouse;Soul;Soulful masterpiece;2006;5;False
+31;Hybrid Theory;Linkin Park;Rock;First LP album;2000;5;False
+32;Thriller;Michael Jackson;Pop;Best selling album;1982;5;False
+33;Back in Black;ACDC;Rock;Famous rock album;1980;4;False
+34;1989;Taylor Swift;Pop;Pop album;2014;4;False
+35;Random Access Memories;Daft Punk;Electronic;Electronic album;2013;5;False
+36;Music;Playboi Carti;Rap;Rap album;2025;5;True
+37;Nevermind;Nirvana;Grunge;Grunge classic;1991;5;False
+38;The Dark Side of the Moon;Pink Floyd;Progressive Rock;Iconic album;1973;5;False
+39;Abbey Road;The Beatles;Rock;Classic Beatles album;1969;5;False
+40;Back to Black;Amy Winehouse;Soul;Soulful masterpiece;2006;5;False
+41;Hybrid Theory;Linkin Park;Rock;First LP album;2000;5;False
+42;Thriller;Michael Jackson;Pop;Best selling album;1982;5;False
+43;Back in Black;ACDC;Rock;Famous rock album;1980;4;False
+44;1989;Taylor Swift;Pop;Pop album;2014;4;False
+45;Random Access Memories;Daft Punk;Electronic;Electronic album;2013;5;False
+46;Music;Playboi Carti;Rap;Rap album;2025;5;False
+47;Nevermind;Nirvana;Grunge;Grunge classic;1991;5;False
+48;The Dark Side of the Moon;Pink Floyd;Progressive Rock;Iconic album;1973;5;False
+49;Abbey Road;The Beatles;Rock;Classic Beatles album;1969;5;False
+50;Back to Black;Amy Winehouse;Soul;Soulful masterpiece;2006;5;False
+51;Hybrid Theory;Linkin Park;Rock;First LP album;2000;5;False
+52;Thriller;Michael Jackson;Pop;Best selling album;1982;5;False
+53;Back in Black;ACDC;Rock;Famous rock album;1980;4;False
+54;1989;Taylor Swift;Pop;Pop album;2014;4;False
+55;Random Access Memories;Daft Punk;Electronic;Electronic album;2013;5;False
+56;Music;Playboi Carti;Rap;Rap album;2025;5;True
+57;Nevermind;Nirvana;Grunge;Grunge classic;1991;5;False
+58;The Dark Side of the Moon;Pink Floyd;Progressive Rock;Iconic album;1973;5;True
+59;Abbey Road;The Beatles;Rock;Classic Beatles album;1969;5;False
+60;Back to Black;Amy Winehouse;Soul;Soulful masterpiece;2006;5;True
+61;Hybrid Theory;Linkin Park;Rock;First LP album;2000;5;False
+62;Thriller;Michael Jackson;Pop;Best selling album;1982;5;False
+63;Back in Black;ACDC;Rock;Famous rock album;1980;4;True
+64;1989;Taylor Swift;Pop;Pop album;2014;4;False
+65;Random Access Memories;Daft Punk;Electronic;Electronic album;2013;5;False
+66;Music;Playboi Carti;Rap;Rap album;2025;5;False
+67;Nevermind;Nirvana;Grunge;Grunge classic;1991;5;False
+68;The Dark Side of the Moon;Pink Floyd;Progressive Rock;Iconic album;1973;5;False
+69;Abbey Road;The Beatles;Rock;Classic Beatles album;1969;5;False
+70;Back to Black;Amy Winehouse;Soul;Soulful masterpiece;2006;5;False
+71;Hybrid Theory;Linkin Park;Rock;First LP album;2000;5;True
+72;Thriller;Michael Jackson;Pop;Best selling album;1982;5;False
+73;Back in Black;ACDC;Rock;Famous rock album;1980;4;False
+74;1989;Taylor Swift;Pop;Pop album;2014;4;False
+75;Random Access Memories;Daft Punk;Electronic;Electronic album;2013;5;False
+76;Music;Playboi Carti;Rap;Rap album;2025;5;False
+77;Nevermind;Nirvana;Grunge;Grunge classic;1991;5;False
+78;The Dark Side of the Moon;Pink Floyd;Progressive Rock;Iconic album;1973;5;False
+79;Abbey Road;The Beatles;Rock;Classic Beatles album;1969;5;False
+80;Back to Black;Amy Winehouse;Soul;Soulful masterpiece;2006;5;False
+81;Hybrid Theory;Linkin Park;Rock;First LP album;2000;5;False
+82;Thriller;Michael Jackson;Pop;Best selling album;1982;5;False
+83;Back in Black;ACDC;Rock;Famous rock album;1980;4;False
+84;1989;Taylor Swift;Pop;Pop album;2014;4;False
+85;Random Access Memories;Daft Punk;Electronic;Electronic album;2013;5;False
+86;Music;Playboi Carti;Rap;Rap album;2025;5;False
+87;Nevermind;Nirvana;Grunge;Grunge classic;1991;5;False
+88;The Dark Side of the Moon;Pink Floyd;Progressive Rock;Iconic album;1973;5;False
+89;Abbey Road;The Beatles;Rock;Classic Beatles album;1969;5;False
+90;Back to Black;Amy Winehouse;Soul;Soulful masterpiece;2006;5;False
+91;Hybrid Theory;Linkin Park;Rock;First LP album;2000;5;False
+92;Thriller;Michael Jackson;Pop;Best selling album;1982;5;False
+93;Back in Black;ACDC;Rock;Famous rock album;1980;4;False
+94;1989;Taylor Swift;Pop;Pop album;2014;4;False
+95;Random Access Memories;Daft Punk;Electronic;Electronic album;2013;5;False
+96;Music;Playboi Carti;Rap;Rap album;2025;5;False
+97;Nevermind;Nirvana;Grunge;Grunge classic;1991;5;False
+98;The Dark Side of the Moon;Pink Floyd;Progressive Rock;Iconic album;1973;5;False
+99;Abbey Road;The Beatles;Rock;Classic Beatles album;1969;5;False
+100;Back to Black;Amy Winehouse;Soul;Soulful masterpiece;2006;5;False
+101;Hybrid Theory;Linkin Park;Rock;First LP album;2000;5;False
+102;Thriller;Michael Jackson;Pop;Best selling album;1982;5;False
+103;Back in Black;ACDC;Rock;Famous rock album;1980;4;False
+104;1989;Taylor Swift;Pop;Pop album;2014;4;False
+105;Random Access Memories;Daft Punk;Electronic;Electronic album;2013;5;False
+106;Music;Playboi Carti;Rap;Rap album;2025;5;False
+107;Nevermind;Nirvana;Grunge;Grunge classic;1991;5;False
+108;The Dark Side of the Moon;Pink Floyd;Progressive Rock;Iconic album;1973;5;False
+109;Abbey Road;The Beatles;Rock;Classic Beatles album;1969;5;True
+110;Back to Black;Amy Winehouse;Soul;Soulful masterpiece;2006;5;False
+111;Hybrid Theory;Linkin Park;Rock;First LP album;2000;5;False
+112;Thriller;Michael Jackson;Pop;Best selling album;1982;5;False
+113;Back in Black;ACDC;Rock;Famous rock album;1980;4;False
+114;1989;Taylor Swift;Pop;Pop album;2014;4;False
+115;Random Access Memories;Daft Punk;Electronic;Electronic album;2013;5;False
+116;Music;Playboi Carti;Rap;Rap album;2025;5;False
+117;Nevermind;Nirvana;Grunge;Grunge classic;1991;5;False
+118;The Dark Side of the Moon;Pink Floyd;Progressive Rock;Iconic album;1973;5;False
+119;Abbey Road;The Beatles;Rock;Classic Beatles album;1969;5;False
+120;Back to Black;Amy Winehouse;Soul;Soulful masterpiece;2006;5;False
+121;Hybrid Theory;Linkin Park;Rock;First LP album;2000;5;False
+122;Thriller;Michael Jackson;Pop;Best selling album;1982;5;False
+123;Back in Black;ACDC;Rock;Famous rock album;1980;4;False
+124;1989;Taylor Swift;Pop;Pop album;2014;4;False
+125;Random Access Memories;Daft Punk;Electronic;Electronic album;2013;5;False
+126;Music;Playboi Carti;Rap;Rap album;2025;5;False
+127;Nevermind;Nirvana;Grunge;Grunge classic;1991;5;False
+128;The Dark Side of the Moon;Pink Floyd;Progressive Rock;Iconic album;1973;5;False
+129;Abbey Road;The Beatles;Rock;Classic Beatles album;1969;5;False
+130;Back to Black;Amy Winehouse;Soul;Soulful masterpiece;2006;5;False
+131;Hybrid Theory;Linkin Park;Rock;First LP album;2000;5;False
+132;Thriller;Michael Jackson;Pop;Best selling album;1982;5;False
+133;Back in Black;ACDC;Rock;Famous rock album;1980;4;False
+134;1989;Taylor Swift;Pop;Pop album;2014;4;False
+135;Random Access Memories;Daft Punk;Electronic;Electronic album;2013;5;False
+136;Music;Playboi Carti;Rap;Rap album;2025;5;False
+137;Nevermind;Nirvana;Grunge;Grunge classic;1991;5;False
+138;The Dark Side of the Moon;Pink Floyd;Progressive Rock;Iconic album;1973;5;False
+139;Abbey Road;The Beatles;Rock;Classic Beatles album;1969;5;False
+140;Back to Black;Amy Winehouse;Soul;Soulful masterpiece;2006;5;True
+141;Hybrid Theory;Linkin Park;Rock;First LP album;2000;5;False
+142;Thriller;Michael Jackson;Pop;Best selling album;1982;5;False
+143;Back in Black;ACDC;Rock;Famous rock album;1980;4;False
+144;1989;Taylor Swift;Pop;Pop album;2014;4;False
+145;Random Access Memories;Daft Punk;Electronic;Electronic album;2013;5;False
+146;Music;Playboi Carti;Rap;Rap album;2025;5;False
+147;Nevermind;Nirvana;Grunge;Grunge classic;1991;5;False
+148;The Dark Side of the Moon;Pink Floyd;Progressive Rock;Iconic album;1973;5;False
+149;Abbey Road;The Beatles;Rock;Classic Beatles album;1969;5;False
+150;Back to Black;Amy Winehouse;Soul;Soulful masterpiece;2006;5;False
+151;Hybrid Theory;Linkin Park;Rock;First LP album;2000;5;False
+152;Thriller;Michael Jackson;Pop;Best selling album;1982;5;True
+153;Back in Black;ACDC;Rock;Famous rock album;1980;4;False
+154;1989;Taylor Swift;Pop;Pop album;2014;4;False
+155;Random Access Memories;Daft Punk;Electronic;Electronic album;2013;5;False
+156;Music;Playboi Carti;Rap;Rap album;2025;5;False
+157;Nevermind;Nirvana;Grunge;Grunge classic;1991;5;False
+158;The Dark Side of the Moon;Pink Floyd;Progressive Rock;Iconic album;1973;5;False
+159;Abbey Road;The Beatles;Rock;Classic Beatles album;1969;5;False
+160;Back to Black;Amy Winehouse;Soul;Soulful masterpiece;2006;5;False
+161;Hybrid Theory;Linkin Park;Rock;First LP album;2000;5;False
+162;Thriller;Michael Jackson;Pop;Best selling album;1982;5;False
+163;Back in Black;ACDC;Rock;Famous rock album;1980;4;False
+164;1989;Taylor Swift;Pop;Pop album;2014;4;True
+165;Random Access Memories;Daft Punk;Electronic;Electronic album;2013;5;False
+166;Music;Playboi Carti;Rap;Rap album;2025;5;False
+167;Nevermind;Nirvana;Grunge;Grunge classic;1991;5;False
+168;The Dark Side of the Moon;Pink Floyd;Progressive Rock;Iconic album;1973;5;False
+169;Abbey Road;The Beatles;Rock;Classic Beatles album;1969;5;False
+170;Back to Black;Amy Winehouse;Soul;Soulful masterpiece;2006;5;False
+171;Hybrid Theory;Linkin Park;Rock;First LP album;2000;5;False
+172;Thriller;Michael Jackson;Pop;Best selling album;1982;5;False
+173;Back in Black;ACDC;Rock;Famous rock album;1980;4;False
+174;1989;Taylor Swift;Pop;Pop album;2014;4;True
+175;Random Access Memories;Daft Punk;Electronic;Electronic album;2013;5;False
+176;Music;Playboi Carti;Rap;Rap album;2025;5;False
+177;Nevermind;Nirvana;Grunge;Grunge classic;1991;5;False
+178;The Dark Side of the Moon;Pink Floyd;Progressive Rock;Iconic album;1973;5;False
+179;Abbey Road;The Beatles;Rock;Classic Beatles album;1969;5;False
+180;Back to Black;Amy Winehouse;Soul;Soulful masterpiece;2006;5;False
+181;Hybrid Theory;Linkin Park;Rock;First LP album;2000;5;False
+182;Thriller;Michael Jackson;Pop;Best selling album;1982;5;False
+183;Back in Black;ACDC;Rock;Famous rock album;1980;4;False
+184;1989;Taylor Swift;Pop;Pop album;2014;4;False
+185;Random Access Memories;Daft Punk;Electronic;Electronic album;2013;5;False
+186;Music;Playboi Carti;Rap;Rap album;2025;5;False
+187;Nevermind;Nirvana;Grunge;Grunge classic;1991;5;False
+188;The Dark Side of the Moon;Pink Floyd;Progressive Rock;Iconic album;1973;5;False
+189;Abbey Road;The Beatles;Rock;Classic Beatles album;1969;5;True
+190;Back to Black;Amy Winehouse;Soul;Soulful masterpiece;2006;5;True
+191;Hybrid Theory;Linkin Park;Rock;First LP album;2000;5;False
+192;Thriller;Michael Jackson;Pop;Best selling album;1982;5;False
+193;Back in Black;ACDC;Rock;Famous rock album;1980;4;False
+194;1989;Taylor Swift;Pop;Pop album;2014;4;False
+195;Random Access Memories;Daft Punk;Electronic;Electronic album;2013;5;False
+196;Music;Playboi Carti;Rap;Rap album;2025;5;False
+197;Nevermind;Nirvana;Grunge;Grunge classic;1991;5;False
+198;The Dark Side of the Moon;Pink Floyd;Progressive Rock;Iconic album;1973;5;False
+199;Abbey Road;The Beatles;Rock;Classic Beatles album;1969;5;False
+200;Back to Black;Amy Winehouse;Soul;Soulful masterpiece;2006;5;False

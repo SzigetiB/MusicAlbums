@@ -67,6 +67,62 @@ tr:hover {
     background: #2a2a2a;
 }
 
+/* Favorites card styles */
+.card {
+    background: #1f1f1f;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+}
+
+.card h3 {
+    margin: 0 0 10px 0;
+    font-size: 20px;
+    color: #1db954;
+}
+
+.card p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #ccc;
+}
+
+/* Stats styles */
+.stats-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.stat-box {
+    background: #1f1f1f;
+    border-radius: 10px;
+    padding: 25px;
+    text-align: center;
+    width: 180px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.stat-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+}
+
+.stat-box p {
+    margin: 10px 0 0 0;
+    font-size: 18px;
+    color: #1fff75;
+}
+
 /* footer */
 footer {
     background: #1f1f1f;
@@ -91,4 +147,21 @@ footer {
     main {
         padding: 20px;
     }
+
+    main.cards, .stats-container {
+        grid-template-columns: 1fr;
+        display: grid;
+        gap: 20px;
+    }
+
+    .card, .stat-box {
+        width: 100%;
+    }
+}
+
+/* grid layout for Favorites cards on large screens */
+main.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 25px;
 }
