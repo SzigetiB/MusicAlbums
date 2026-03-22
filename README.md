@@ -3,7 +3,7 @@
 
 ## Csapattagok
 - Balázs Szigeti
-- [Másik tag neve]
+- Varg Márk
 
 ## Választott téma
 Zenei albumok gyűjteménye
@@ -47,8 +47,3 @@ További osztályok:
 - Csak kedvenc albumok
 - Kártya formátum
 - Kiemelt vizuális megjelenítés
-
-## Képernyőképek
-![Főoldal](screenshots/index.png)
-![Album lista](screenshots/items.png)
-![Kedvencek](screenshots/favorites.png)
