@@ -9,19 +9,24 @@ class Program
 
         while (running)
         {
-            Console.WriteLine("1 Add Album");
-            Console.WriteLine("2 List Albums");
-            Console.WriteLine("3 Search");
-            Console.WriteLine("4 Filter");
-            Console.WriteLine("5 Save CSV");
+
+            Console.WriteLine("\n1 Add Album: ");
+            Console.WriteLine("2 List Albums: ");
+            Console.WriteLine("3 Search: ");
+            Console.WriteLine("4 Filter: ");
+            Console.WriteLine("5 Save CSV: ");
             Console.WriteLine("6 Load CSV");
-            Console.WriteLine("7 Export HTML");
+            Console.WriteLine("7 Export HTML: ");
             Console.WriteLine("0 Exit");
+            Console.Write("Select a menu item: ");
 
             string input = Console.ReadLine()!;
 
             switch (input)
             {
+                case "1":
+                    manager.AddAlbum();
+                    break;
                 case "2":
                     manager.ListAlbums();
                     break;

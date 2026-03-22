@@ -7,9 +7,50 @@ class AlbumManager
 {
     public List<Album> Albums = new List<Album>();
 
-    public void AddAlbum(Album album)
+    public void AddAlbum()
     {
-        Albums.Add(album);
+        Console.WriteLine("Add a new album:");
+
+        Console.Write("Name: ");
+        string name = Console.ReadLine()!;
+
+        Console.Write("Artist: ");
+        string artist = Console.ReadLine()!;
+
+        Console.Write("Category: ");
+        string category = Console.ReadLine()!;
+
+        int year;
+        while (true)
+        {
+            Console.Write("Year: ");
+            if (int.TryParse(Console.ReadLine(), out year)) break;
+            Console.WriteLine("Enter a valid number for year.");
+        }
+
+        int rating;
+        while (true)
+        {
+            Console.Write("Rating (1-5): ");
+            if (int.TryParse(Console.ReadLine(), out rating) && rating >= 1 && rating <= 5) break;
+            Console.WriteLine("Enter a valid rating between 1 and 5.");
+        }
+
+        bool isFavorite = false;
+        Console.Write("Favorite? (y/n): ");
+        string favInput = Console.ReadLine()!;
+        if (favInput.ToLower() == "y") isFavorite = true;
+
+        Console.Write("Description: ");
+        string description = Console.ReadLine()!;
+
+        int id = Albums.Count > 0 ? Albums.Max(a => a.Id) + 1 : 1;
+
+        Album newAlbum = new Album(id, name, artist, category, description, year, rating, isFavorite);
+
+        Albums.Add(newAlbum);
+
+        Console.WriteLine($"Album '{name}' added successfully!");
     }
 
     public void ListAlbums()
@@ -60,13 +101,27 @@ class AlbumManager
     public string GenerateItemsTable()
     {
         string rows = "";
-
         foreach (var a in Albums)
         {
             rows += $"<tr><td>{a.Name}</td><td>{a.Artist}</td><td>{a.Category}</td><td>{a.Year}</td><td>{a.Rating}</td></tr>";
         }
 
-        return rows;
+        return $@"
+    <table>
+        <thead>
+            <tr>
+                <th>Album</th>
+                <th>Artist</th>
+                <th>Genre</th>
+                <th>Year</th>
+                <th>Rating</th>
+            </tr>
+        </thead>
+        <tbody>
+            {rows}
+        </tbody>
+    </table>
+    ";
     }
 
     public string GenerateFavorites()
