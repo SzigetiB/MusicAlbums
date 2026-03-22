@@ -1,10 +1,57 @@
-﻿namespace MusicAlbums
+using System;
+
+class Program
 {
-    internal class Program
+    static void Main()
     {
-        static void Main(string[] args)
+        AlbumManager manager = new AlbumManager();
+        bool running = true;
+
+        while (running)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("1 Add Album");
+            Console.WriteLine("2 List Albums");
+            Console.WriteLine("3 Search");
+            Console.WriteLine("4 Filter");
+            Console.WriteLine("5 Save CSV");
+            Console.WriteLine("6 Load CSV");
+            Console.WriteLine("7 Export HTML");
+            Console.WriteLine("0 Exit");
+
+            string input = Console.ReadLine()!;
+
+            switch (input)
+            {
+                case "2":
+                    manager.ListAlbums();
+                    break;
+
+                case "3":
+                    Console.WriteLine("Name:");
+                    manager.SearchByName(Console.ReadLine()!);
+                    break;
+
+                case "4":
+                    Console.WriteLine("Category:");
+                    manager.FilterByCategory(Console.ReadLine()!);
+                    break;
+
+                case "5":
+                    manager.SaveCsv("data/albums.csv");
+                    break;
+
+                case "6":
+                    manager.LoadCsv("data/albums.csv");
+                    break;
+
+                case "7":
+                    manager.ExportHtml();
+                    break;
+
+                case "0":
+                    running = false;
+                    break;
+            }
         }
     }
 }

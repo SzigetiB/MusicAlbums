@@ -1,0 +1,6 @@
+Id;Name;Artist;Category;Description;Year;Rating;IsFavorite
+1;Hybrid Theory;Linkin Park;Rock;First LP album;2000;5;true
+2;Thriller;Michael Jackson;Pop;Best selling album;1982;5;true
+3;Back in Black;ACDC;Rock;Famous rock album;1980;4;false
+4;1989;Taylor Swift;Pop;Pop album;2014;4;false
+5;Random Access Memories;Daft Punk;Electronic;Electronic album;2013;5;true

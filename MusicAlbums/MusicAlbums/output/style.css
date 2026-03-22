@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #121212;
+    color: white;
+}
+
+header {
+    background: #1db954;
+    padding: 30px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background: #1f1f1f;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #1db954;
+}
+
+main {
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* statistics */
+.stats-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.stat-box {
+    background: #1f1f1f;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    width: 150px;
+    transition: 0.3s;
+}
+
+.stat-box:hover {
+    transform: scale(1.05);
+}
+
+/* table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #1f1f1f;
+}
+
+th {
+    background: #1db954;
+    padding: 12px;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #333;
+}
+
+tr:hover {
+    background: #2a2a2a;
+}
+
+td img {
+    width: 60px;
+    border-radius: 5px;
+}
+
+/* album cards */
+.album-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.album-card {
+    background: #1f1f1f;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.album-card:hover {
+    transform: scale(1.05);
+}
+
+.album-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.album-info {
+    padding: 15px;
+}
+
+.genre {
+    background: #1db954;
+    color: black;
+    padding: 4px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+/* footer */
+footer {
+    background: #1f1f1f;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* responsive */
+@media(max-width:700px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .stats-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
