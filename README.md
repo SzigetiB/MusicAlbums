@@ -47,8 +47,3 @@ További osztályok:
 - Csak kedvenc albumok
 - Kártya formátum
 - Kiemelt vizuális megjelenítés
-
-## Képernyőképek
-![Főoldal](screenshots/index.png)
-![Album lista](screenshots/items.png)
-![Kedvencek](screenshots/favorites.png)
