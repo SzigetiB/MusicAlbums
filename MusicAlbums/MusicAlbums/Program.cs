@@ -17,6 +17,7 @@ class Program
             Console.WriteLine("5 Save CSV: ");
             Console.WriteLine("6 Load CSV");
             Console.WriteLine("7 Export HTML: ");
+            Console.WriteLine("8 Sort by Year: ");
             Console.WriteLine("0 Exit");
             Console.Write("Select a menu item: ");
 
@@ -51,6 +52,9 @@ class Program
 
                 case "7":
                     manager.ExportHtml();
+                    break;
+                case "8":
+                    manager.SortByYear();
                     break;
 
                 case "0":
