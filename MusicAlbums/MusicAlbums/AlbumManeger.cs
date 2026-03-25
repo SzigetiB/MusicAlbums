@@ -142,7 +142,22 @@ class AlbumManager
         int fav = Albums.Count(a => a.IsFavorite);
         int categories = Albums.Select(a => a.Category).Distinct().Count();
 
-        return $"<p>Albums: {count}</p><p>Favorites: {fav}</p><p>Categories: {categories}</p>";
+        return $@"
+        <div class='stats-container'>
+            <div class='stat-box'>
+                <h3>Albums</h3>
+                <p>{count}</p>
+            </div>
+            <div class='stat-box'>
+                <h3>Favorites</h3>
+                <p>{fav}</p>
+            </div>
+            <div class='stat-box'>
+                <h3>Categories</h3>
+                <p>{categories}</p>
+            </div>
+        </div>
+        ";
     }
 
     public void ExportHtml()
@@ -159,8 +174,9 @@ class AlbumManager
 
         File.WriteAllText("output/items.html", items);
 
-        string fav = template.Replace("{{TITLE}}", "Favorites")
-                             .Replace("{{CONTENT}}", GenerateFavorites());
+        string fav = template.Replace("<main>", "<main class='cards'>")
+                     .Replace("{{TITLE}}", "Favorites")
+                     .Replace("{{CONTENT}}", GenerateFavorites());
 
         File.WriteAllText("output/favorites.html", fav);
     }
