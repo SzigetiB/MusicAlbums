@@ -2,8 +2,8 @@
 # Music Project
 
 ## Csapattagok
-- Balázs Szigeti
-- Varg Márk
+- Szigeti Balázs
+- Varga Márk
 
 ## Választott téma
 Zenei albumok gyűjteménye
